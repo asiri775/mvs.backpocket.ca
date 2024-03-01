@@ -1,0 +1,122 @@
+.cradit-tabs-holder h3{
+    margin-top: 0px;
+}
+.cradit-tabs-holder .tab-pane {
+    padding: 20px 15px 40px;
+    background: #fff;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.cradit-tabs-holder table, .cradit-tabs-holder select{
+    width: 100%;
+}
+.cradit-tabs-holder form table tr td:first-child{
+    text-align: right;
+    width: 50%;
+}
+.cradit-tabs-holder form table tr td:last-child{
+    padding-left: 10px;
+}
+.cradit-tabs-holder form table tr:last-child td{
+    text-align: center;
+    width: 100%;
+}
+.cradit-tabs-holder form table tr td {
+    font-size: 13px;
+    padding: 4px 0px;
+    color: #6d6d6d;
+}
+.btn.credits-btn, .btn.edit-btn, .btn.delete-btn, .btn.green-btn{
+    background: #085394;
+    color: #fff;
+    width: auto !important;
+    margin: 0 5px;
+    font-size: 13px;
+    padding: 3px 10px;
+    border-radius: 0px;
+}
+.btn.green-btn{
+    background: #009E0F;
+}
+.btn.edit-btn{
+    background: #fba811;
+}
+.btn.delete-btn{
+    background: #ef0a0a;
+}
+input.card-text.not-editable {
+    border: 2px solid #fff;
+    cursor: default;
+    pointer-events: none;
+
+}
+input.card-text{
+    width: 100%;
+}
+#card-lists, #card-history{
+    font-size: 13px;
+    white-space: nowrap;
+}
+table#card-lists th, table#card-history th {
+    font-size: 12px;
+}
+table#card-lists th, table#card-history th,  table#card-lists td, table#card-history td{
+    padding: 5px 4px;
+}
+table#card-lists a{
+    font-size: 12px;
+    padding: 4px 7px;
+    margin: 0 2px;
+}
+#addnew-card-form input[type="text"]{
+    width: 70px;
+}
+.checkbox-holder {margin: 5px; font-size: 11px; position: relative;
+    padding-left: 15px;}
+.checkbox-holder input{position: absolute; left: 0;}
+#manage-credits .btn{
+    font-size: 10px;
+} #manage-credits .checkbox-holder{
+      font-size: 9;
+  }
+.cradit-tabs-holder select{
+    height: 24px;
+    max-width: 170px;
+}
+h5 .fa {
+    font-size: 28px;
+    vertical-align: middle;
+    margin-top: -4px;
+    margin-right: 4px;
+}
+.ml-30 {margin-left: 30px;}
+.filter-form input[type="date"], .filter-form input[type="text"]  {
+    width: 40px;
+    font-size: 12px;
+
+}
+.filter-form .fa{
+    font-size: 25px;
+    margin: 0 5px 0px 2px;
+}
+.f-12{
+    font-size: 12px;
+}
+.filter-form select {
+    width: 120px;
+    font-size: 12px;
+}
+input.apply-filter {
+    background: transparent;
+    border: 0;
+    text-decoration: underline;
+    color: #1b18ef;
+    font-size: 14px;
+    margin-left: 5px;
+}
+@media screen and (max-width: 767px){
+    .ml-30 {margin-left: 0px;}
+    .cradit-tabs-holder form table tr td:first-child, .cradit-tabs-holder table,  .cradit-tabs-holder form table tr:last-child td {
+        width: auto;}
+}

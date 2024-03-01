@@ -1,0 +1,30 @@
+.p-10 {
+    padding: 10px !important;
+}
+
+@media print {
+    body * {
+        visibility: hidden;
+    }
+
+    .inner {
+        display: none !important;
+    }
+
+
+    #print-btn {
+        display: none !important;
+    }
+
+    #print * {
+        visibility: visible;
+    }
+
+    /* #print{
+        position: absolute;
+        left: 0;
+        top: 0;
+    } */
+
+
+}

@@ -1,0 +1,70 @@
+.gift-image {
+    margin-top: 50px;
+}
+
+.gift-title {
+    font-family: 'Taviraj', serif !important;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.gift-title .t {
+    font-size: 32px !important;
+}
+
+hr.style-seven {
+    overflow: visible;
+    height: 30px;
+    border-style: solid;
+    border-color: #68008b;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+hr.style-seven:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #68008b;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+label {
+    font-family: 'Taviraj', serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 12px !important;
+}
+
+input::placeholder {
+    font-family: 'Taviraj', serif;
+    font-weight: 400;
+    text-align: left !important;
+}
+
+textarea::-webkit-input-placeholder {
+    font-family: 'Taviraj', serif;
+    font-weight: 400;
+    text-align: left !important;
+}
+textarea#sender_message::placeholder {
+    /* line-height: 1.58; */
+    line-height: 1.6;
+    white-space: pre-line;
+    font-weight: 400;
+    font-family: 'Taviraj', serif !important;
+}
+
+@media screen and (max-width: 480px) {
+    .gift-image {
+        margin-bottom: 20px;
+    }
+
+    .login-logo {
+        display: none;
+    }
+}

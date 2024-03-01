@@ -1,0 +1,233 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.inner-addon {
+    position: relative;
+}
+
+
+/* style glyph */
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 14px;
+}
+
+/* align glyph */
+.left-addon .glyphicon {
+    left: 0px;
+}
+
+.right-addon .glyphicon {
+    right: 0px;
+}
+
+/* add padding  */
+.left-addon input {
+    padding-left: 30px;
+}
+
+.right-addon input {
+    padding-right: 30px;
+}
+
+.category-img img {
+    width: 100%;
+}
+
+.category-name {
+    text-align: center;
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
+    color: #373a42;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 1rem;
+
+}
+
+.box {
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #e7e7e7;
+    height: 100%;
+    margin-bottom: 3rem;
+
+    box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.2), 0px 1px 15px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+}
+
+.box-title h4 {
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.fb-color {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.fb-color:hover {
+    color: #fff;
+}
+
+.fb-color i {
+    font-size: 15px;
+    top: 0px;
+    color: #fff;
+}
+
+.site-color {
+    background-color: #90f;
+    color: #fff;
+}
+
+.site-color:hover {
+    color: #fff;
+}
+
+.category-item {
+    margin-bottom: 3rem;
+}
+
+.or-text {
+    text-align: center;
+    position: relative;
+    top: 7px;
+}
+
+.free-cleaning {
+    /* background-image: url('{{ url("assets/img/tilead_easy.png") }}'); */
+
+    position: relative;
+}
+
+.drop-off {
+    /* background-image: url('{{ url("/assets/img/tilead_GiftCards.png") }}'); */
+
+    position: relative;
+}
+
+.pickup {
+    /* background-image: url('https://images.unsplash.com/photo-1521656693074-0ef32e80a5d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80'); */
+
+    position: relative;
+}
+
+.whyube {
+    /* background-image: url('{{ url("assets/img/tilead_whyube.png") }}'); */
+
+    position: relative;
+}
+
+.welcome {
+    /* background-image: url('{{ url("assets/img/tile_welcome.png") }}'); */
+
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+}
+
+.box-content {
+    padding: 2rem;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+.box-title {
+    color: #fff;
+}
+
+.box-body {
+    color: #dedede;
+}
+
+/* .fa-search{
+display: table-cell; */
+/* Style the search field */
+form.example input[type=text] {
+    padding: 10px;
+    /* //font-size: 17px; */
+    border: 1px solid grey;
+    float: left;
+    width: 76%;
+    background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+    float: left;
+    width: 15%;
+    height: 34px;
+    padding: 5px;
+    background: #f1f1f1;
+    color: #131313;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+/* .fa-search {
+    width: 15px !important;
+    top: 0 !important;
+    padding-bottom: 15px;
+    /* margin-right: 10px; */
+/* } */
+
+/* Clear floats */
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.category-item .category-name {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+/*
+responsive
+ --------------------------------------------------
+laptop & desktop HD to 4k
+ */
+
+@media screen and (min-width: 1600px){
+    div#column-change {
+        width: 30%;
+        margin-left: 2.5%;
+    }
+    div#column-expanded {
+        width: 60%;
+        margin-left: 5%;
+    }
+}
+/*
+tablets
+  */
+@media screen and (min-width: 768px) and (max-width: 991px){
+    div#column-change {
+        width: 100%;
+    }
+    div#column-expanded {
+        width: 100%;
+    }
+}

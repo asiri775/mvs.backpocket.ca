@@ -1,0 +1,16 @@
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    .dashboard-content * {
+        visibility: visible;
+    }
+    .print-order-btn,.edit-account-info-div .back-btn{
+        visibility: hidden;
+    }
+    .dashboard-content {
+        position: absolute;
+        margin-top: -100px;
+        width: 100%;
+    }
+}

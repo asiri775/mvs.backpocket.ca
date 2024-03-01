@@ -1,0 +1,19 @@
+::placeholder {
+    color: red;
+    opacity: 1;
+}
+.top-right1 {
+    position: absolute !important;
+    right: 0;
+}
+.font-clr{
+    color: #B6B6B6;
+}
+.font-cl1{
+    color: #8533ff;
+}
+.dataTables_wrapper .dataTables_filter {
+    float: right;
+    text-align: right;
+    visibility: hidden;
+}

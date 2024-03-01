@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Fresty Script';
+    src: url(../../../assets/fonts/FrestyScript.eot);
+    src: url(../../../assets/fonts/FrestyScript.eot?#iefix) format("embedded-opentype"),
+url(../../../assets/fonts/FrestyScript.woff2) format("woff2"),
+url(../../../assets/fonts/FrestyScript.woff) format("woff"),
+url(../../../assets/fonts/FrestyScript.ttf) format("truetype"),
+url(../../../assets/fonts/FrestyScript.svg#FrestyScript) format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.size-matters {
+    font-family: 'Fresty Script';
+    font-size: 135px;
+    color: #330066;
+    margin-top: 0px;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 45px;
+}
+
+.card-package .card {
+    border: 1px solid #010c23;
+    padding: 20px;
+    text-align: center;
+}
+
+.package-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.package-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.package-credit {
+    font-size: 70px;
+    font-weight: bold;
+    color: #222222;
+    margin-bottom: 50px;
+}
+
+.package-credit span {
+    font-size: 19px;
+    display: block;
+    text-transform: uppercase;
+    line-height: 4px;
+    letter-spacing: 3px;
+}
+
+.package-details {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    /* color:#222222; */
+}
+
+.card-btn {
+    margin-top: 5px;
+}
+
+.card-btn button {
+    border: 1px solid #010c23;
+    padding: 10px 0px;
+    background-image: url(../../../assets/img/btn-pattern.png);
+    background-size: auto;
+    background-repeat: repeat-x;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.reccomend button {
+    background-image: url(../../../assets/img/btn-pattern2.png);
+    background-size: auto;
+    background-repeat: repeat-x;
+}
+
+.card-btn button:hover {
+    color: #fff;
+}
+
+.fashionista .card {
+    color: #ffffff;
+    background-image: url(../../../assets/img/card-bg.png);
+}
+
+.fashionista .package-credit {
+    color: #ffffff;
+}
+
+.fashionista .package-title {
+    font-family: 'Fresty Script';
+    text-transform: capitalize;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 50px;
+    margin-bottom: 15px;
+    line-height: 41px;
+}
+
+.bottom-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 30px 0px;
+}
+
+.diva .package-title {
+    font-size: 39px;
+    color: #000b22;
+    margin-bottom: 1px;
+}
+
+.bottom-title a {
+    color: #307519;
+    font-style: italic;
+}
+/* Responsive design  */
+
+@media screen and (min-width: 1920px){
+    div#only-4k {
+        margin-top: 11rem;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .size-matters {
+        font-size: 63px;
+    }
+
+    .subtitle {
+        font-size: 10px;
+        margin-bottom: 19px;
+    }
+
+    .card-package {
+        margin-bottom: 25px;
+    }
+
+
+}

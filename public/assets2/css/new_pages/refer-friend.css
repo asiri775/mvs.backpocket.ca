@@ -1,0 +1,26 @@
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1;
+    /* Firefox */
+}
+
+.top-right1 {
+    position: absolute !important;
+    /* top: 1px; */
+    right: 0;
+}
+
+.font-clr {
+    color: #B6B6B6;
+}
+
+.font-cl1 {
+    color: #8533ff;
+}
+
+.dataTables_wrapper .dataTables_filter {
+    float: right;
+    text-align: right;
+    visibility: hidden;
+}

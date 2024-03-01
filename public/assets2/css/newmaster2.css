@@ -1,0 +1,384 @@
+
+@media screen and (max-width : 1920px) {
+    .mobileshow {
+        display: none;
+    }
+}
+
+@media screen and (max-width : 906px) {
+    .mobileshow {
+        display: block;
+    }
+}
+
+#sns_footer_bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+/*
+body {
+    font-family: "Raleway script=all rev=1", "Adobe Blank";
+    font-size: 13px
+} */
+
+.credit-sign {
+    width: 11px;
+    height: 16px;
+}
+
+#cartProductTable i {
+    top: 0;
+}
+  .sidenav {
+      height: 100%;
+      width: 250px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      display: none;
+      padding-top: 60px;
+  }
+
+/* .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+} */
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.nav-open i {
+    font-size: 24px;
+    cursor: pointer;
+    color: #ffffff !important;
+}
+
+.closebtn {
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.closebtn i {
+    color: #ffffff;
+}
+
+.top-left-nav {
+    display: table;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.top-left-nav li {
+    position: relative;
+}
+
+.top-left-nav li a {
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+  .top-middle-nav {
+      display: table;
+      margin: 7px auto 0px auto;
+      padding: 2px 20px;
+      line-height: 30px;
+      border: 1px solid #fff;
+  }
+
+.top-middle-nav li {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.top-middle-nav li a {
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.top-middle-nav li:hover a {
+    color:
+}
+
+@media screen and (max-width: 480px) {
+    .top-middle-nav {
+        display: none;
+    }
+}
+
+  .mycart:before {
+      background: none;
+  }
+
+.mycart .tongle,
+.mycart .tongle i {
+    color: #ffffff !important;
+}
+
+.mycart .tongle i {
+    font-size: 13px;
+}
+ #footer_bottom {
+     background-color: rgb(41, 41, 41);
+     color: #fff;
+     line-height: 30px;
+     position: relative;
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+     z-index: 999;
+ }
+
+#footer_bottom .icon-container {
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#footer_bottom .accountloy {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+    text-align: left;
+}
+
+#footer_bottom .transhop {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+    text-align: right;
+}
+
+#footer_bottom .inner a {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+#footer_bottom .inner i {
+    font-size: 18px;
+    color: #fff;
+}
+
+#footer_bottom .inner {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding-right: 30px;
+    font-size: 9px;
+}
+
+#footer_bottom .inner:last-child {
+    padding-right: 0;
+}
+
+#footer_bottom .shcart {
+    color: #444;
+    font-size: 30px;
+    vertical-align: middle;
+    background-color: #fff;
+    width: 55px;
+    height: 55px;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -23px;
+    border-radius: 50%;
+    border: 4px solid #333;
+    /* outline: 1px solid #ccc; */
+    box-shadow: 0 0 3px #ddd;
+}
+
+#footer_bottom .shcart i {
+    line-height: 52px;
+    top: 0;
+}
+
+#footer_bottom #footer-cart .tongle i {
+    color: #fff;
+    top: 0;
+}
+
+
+
+@media screen and (max-width : 906px) {
+    .mobileshow {
+        display: block;
+    }
+}
+
+#sns_#footer_bottom_bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ff0000;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (min-width : 1920px) {
+    .mobileshow {
+        display: none;
+    }
+
+    #footer_bottom .accountloy {
+        vertical-align: unset;
+        text-align: unset;
+        width: 50%;
+    }
+
+    #footer_bottom .transhop {
+        vertical-align: unset;
+        text-align: unset;
+        width: 50%;
+
+    }
+
+}
+
+@media screen and (max-width : 906px) {
+    .mobileshow {
+        display: block;
+    }
+}
+
+#sns_footer {
+    margin-top: 150px;
+}
+
+@media screen and (max-width : 480px) {
+    #footer_bottom {
+        line-height: 25px;
+    }
+
+    #sns_footer_bottom .icon-container {
+        max-width: 100% !important;
+    }
+
+    #footer_bottom .shcart {
+        width: 40px;
+        height: 40px;
+        line-height: 24px;
+        top: -15px;
+    }
+
+    #footer_bottom .shcart i {
+        line-height: 24px;
+        font-size: 16px;
+    }
+
+    #footer_bottom .accountloy {
+        display: inline-block;
+        text-align: left;
+        width: 50%;
+    }
+
+    #footer_bottom .transhop {
+        display: inline-block;
+        text-align: right;
+        width: 50%;
+    }
+
+    #footer_bottom .icon-container {
+        padding: 0px 15px;
+    }
+
+    #footer_bottom #footer-cart .tongle,
+    #footer_bottom #footer-cart .tongle i {
+        font-size: 13px;
+    }
+
+    #footer_bottom .transhop .inner,
+    #footer_bottom .accountloy .inner {
+        font-size: 10px;
+    }
+
+    #footer_bottom .transhop .inner i,
+    #footer_bottom .accountloy .inner i {
+        font-size: 19px;
+        /* padding-bottom: 5px; */
+    }
+
+    #footer_bottom .accountloy .inner a {
+        /* top: 10; */
+    }
+
+    #footer_bottom .inner {
+        padding-right: 25px;
+    }
+
+    #sns_footer {
+        margin-top: 250px;
+    }
+
+    #footer_bottom .transhop .hid,
+    #footer_bottom .accountloy .hid {
+        display: none;
+    }
+
+    #footer_bottom .break {
+        line-height: 10px !important;
+    }
+
+    #sns_footer {
+        margin-top: 100px;
+    }
+}
+
+#sns_footer_bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+#sns_footer_bottom .icon-container {
+    text-transform: uppercase;
+    max-width: 90%;
+}

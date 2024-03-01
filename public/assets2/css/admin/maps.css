@@ -1,0 +1,25 @@
+.suggesstion-box {
+    position: absolute;
+    z-index: 1;
+    width: 90%;
+}
+
+.suggesstion-box li {
+    list-style: none;
+    background: lavender;
+    padding: 4px;
+    margin-bottom: 1px;
+    overflow-wrap: break-word;
+}
+
+.suggesstion-box li:hover {
+    cursor: pointer;
+}
+
+.dataTables_filter {
+    display: none;
+}
+
+.chosen-single {
+    height: 100px;
+}

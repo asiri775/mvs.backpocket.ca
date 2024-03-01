@@ -1,0 +1,11 @@
+.w-100 {
+    width: 100% !important;
+}
+.order-id{
+    max-width: 150px;
+    float: left;
+    padding-right: 15px;
+}
+.order-id label{
+    margin: 8px 0px;
+}

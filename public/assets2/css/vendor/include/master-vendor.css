@@ -1,0 +1,9 @@
+.header-wrapper.style-10 .nav-overflow::before{
+    background:#000;
+}
+body, input, textarea, select {
+    font-family: Poppins;
+}
+.dropdown-menu > li > a:hover {
+    color: #000000 !important;
+}
